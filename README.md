@@ -36,8 +36,8 @@ Note that the file path of the validation dataset can be modified in ``validatio
 Simply run ``train.py`` to start the training process. The script ``torchkit\task\base_task.py`` will load ``train.yaml``.
 for necessary configuration. The config file should specify the following key information: 
 
-- **Dataset: **the paths for the training dataset are specified by the three options ``DATA_ROOT``, ``INDEX_ROOT``, and ``DATASETS`` in the ``train.yaml`` file. The paths for the validation datasets can be found in the ``VAL_DATA_ROOT`` option of the same file.  If you have followed the previous steps to organize your dataset, you don't need to modify these paths.
-- **Server model:** the cloud-side server model utilizes the models provided by the  [AdaFace](https://github.com/mk-minchul/AdaFace) repository::``adaface_ir101_webface12m.ckpt, adaface_ir50_webface4m.ckpt``.
+- **Dataset**: the paths for the training dataset are specified by the three options ``DATA_ROOT``, ``INDEX_ROOT``, and ``DATASETS`` in the ``train.yaml`` file. The paths for the validation datasets can be found in the ``VAL_DATA_ROOT`` option of the same file.  If you have followed the previous steps to organize your dataset, you don't need to modify these paths.
+- **Server model:** the cloud-side server model utilizes the models provided by the  [AdaFace](https://github.com/mk-minchul/AdaFace) repository:``adaface_ir101_webface12m.ckpt, adaface_ir50_webface4m.ckpt``.
 
 Other part of the training script is self-explained. We are open for any questions.
 
