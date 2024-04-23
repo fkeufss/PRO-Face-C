@@ -57,6 +57,8 @@ class BaseTask(object):
         self.train_loader = None
         self.blur_loader = None
 
+        self.val_data_root = self.cfg['VAL_DATA_ROOT']
+
         self.dist_fc = self.cfg.get('DIST_FC', True)
         self.amp = self.cfg.get('AMP', False)
 

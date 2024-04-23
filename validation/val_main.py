@@ -58,8 +58,8 @@ if __name__ == '__main__':
     lfw, cfp_fp, agedb, calfw, cplfw, lfw_issame, cfp_fp_issame, agedb_issame, \
     calfw_issame, cplfw_issame = get_val_data(DATA_ROOT)
 
-    # img_list, issame = get_test_celeA('/Data/CelebA/align_crop_112',
-    #                                   '/Data/CelebA/Anno/triplet_loss/pairs.txt')
+    # img_list, issame = get_test_celeA('../Data/CelebA/align_crop_112',
+    #                                   '../Data/CelebA/Anno/triplet_loss/pairs.txt')
 
     BACKBONE = load_model()
     BACKBONE = BACKBONE.cuda()

@@ -3,7 +3,7 @@ configurations = {
     1: dict(
         SEED=1234,
 
-        DATA_ROOT='/Data/validation_hq',  # To place the validation dataset file, see http://
+        DATA_ROOT='../Data/validation',  # To place the validation dataset file
 
         INPUT_SIZE=[112, 112],
         EMBEDDING_SIZE=512,

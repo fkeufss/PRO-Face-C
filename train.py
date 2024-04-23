@@ -129,7 +129,7 @@ class TrainTask(BaseTask):
 
         # datas
         lfw, cfp_fp, agedb, calfw, cplfw, lfw_issame, cfp_fp_issame, \
-        agedb_issame, calfw_issame, cplfw_issame = get_val_data("/Data/validation_hq")
+        agedb_issame, calfw_issame, cplfw_issame = get_val_data(self.val_data_root)
 
         auxi_model = load_pretrained_model(architecture='ir_101')
 
